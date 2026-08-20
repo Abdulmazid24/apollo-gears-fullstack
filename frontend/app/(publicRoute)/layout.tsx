@@ -3,7 +3,7 @@ import { Navbar } from "@/components/shared/Navbar"
 export default function PublicLayout({
   children,
 }: {
-  children: React.ReactElement
+  children: React.ReactNode
 }) {
   return (
     <div>
@@ -12,3 +12,4 @@ export default function PublicLayout({
     </div>
   )
 }
+
