@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Builds & Outputs
+.next/
+*/.next/
+dist/
+*/dist/
+
+# Environment variables (Credentials)
+.env
+.env.*
+*/.env
+*/.env.*
+
+# Logs & OS Files
+*.log
+.DS_Store
+.vscode/
